@@ -2,6 +2,7 @@
 source_url("https://raw.githubusercontent.com/sshankha/shiny-author-affiliations/main/authors_list.R")
 shinyApp(ui = ui, server = server)
 
+#format data
 #have an excel file with the following columns 
 name
 sequence - this will be used to sequence the authors' list
